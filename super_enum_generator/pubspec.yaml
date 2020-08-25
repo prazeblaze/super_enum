@@ -11,7 +11,9 @@ dependencies:
   # Specify a specific version or a version constraint
   # for "super_enum" before publishing the package.
   super_enum:
-    path: ../super_enum
+    git:
+      url: https://github.com/prazeblaze/super_enum.git
+      path: super_enum
   source_gen: ^0.9.4+7
   analyzer: '>=0.39.2 <0.40.0'
   build: '>=0.12.6 <2.0.0'

@@ -425,16 +425,20 @@ packages:
   super_enum:
     dependency: "direct main"
     description:
-      path: "../super_enum"
-      relative: true
-    source: path
+      path: super_enum
+      ref: HEAD
+      resolved-ref: d64c3feed22c04cadc8592413de4bbfe9e51c94e
+      url: "https://github.com/prazeblaze/super_enum.git"
+    source: git
     version: "0.4.2"
   super_enum_generator:
     dependency: "direct dev"
     description:
-      path: "../super_enum_generator"
-      relative: true
-    source: path
+      path: super_enum_generator
+      ref: HEAD
+      resolved-ref: d64c3feed22c04cadc8592413de4bbfe9e51c94e
+      url: "https://github.com/prazeblaze/super_enum.git"
+    source: git
     version: "0.5.0"
   term_glyph:
     dependency: transitive

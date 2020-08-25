@@ -20,7 +20,9 @@ dependencies:
   flutter:
     sdk: flutter
   super_enum:
-    path: ../super_enum/
+    git:
+      url: https://github.com/prazeblaze/super_enum.git
+      path: super_enum
   http: ^0.12.0+2
 
 dev_dependencies:
@@ -29,7 +31,9 @@ dev_dependencies:
   mockito: ^4.1.1
   build_runner: ^1.7.1
   super_enum_generator:
-    path: ../super_enum_generator/
+    git:
+      url: https://github.com/prazeblaze/super_enum.git
+      path: super_enum_generator
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
